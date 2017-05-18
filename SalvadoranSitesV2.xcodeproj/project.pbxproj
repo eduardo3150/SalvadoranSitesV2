@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7801BA341EC4297F00C1B039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA331EC4297F00C1B039 /* AppDelegate.swift */; };
+		7801BA361EC4297F00C1B039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA351EC4297F00C1B039 /* ViewController.swift */; };
+		7801BA391EC4297F00C1B039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7801BA371EC4297F00C1B039 /* Main.storyboard */; };
+		7801BA3B1EC4297F00C1B039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7801BA3A1EC4297F00C1B039 /* Assets.xcassets */; };
+		7801BA3E1EC4297F00C1B039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7801BA3C1EC4297F00C1B039 /* LaunchScreen.storyboard */; };
+		7801BA491EC4297F00C1B039 /* SalvadoranSitesV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA481EC4297F00C1B039 /* SalvadoranSitesV2Tests.swift */; };
+		7801BA541EC4297F00C1B039 /* SalvadoranSitesV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA531EC4297F00C1B039 /* SalvadoranSitesV2UITests.swift */; };
+		7801BA621EC438B900C1B039 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA611EC438B900C1B039 /* Places.swift */; };
+		7801BA641EC4419D00C1B039 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA631EC4419D00C1B039 /* MapaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7801BA451EC4297F00C1B039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7801BA281EC4297F00C1B039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7801BA2F1EC4297F00C1B039;
+			remoteInfo = SalvadoranSitesV2;
+		};
+		7801BA501EC4297F00C1B039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7801BA281EC4297F00C1B039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7801BA2F1EC4297F00C1B039;
+			remoteInfo = SalvadoranSitesV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7801BA301EC4297F00C1B039 /* SalvadoranSitesV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalvadoranSitesV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7801BA331EC4297F00C1B039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7801BA351EC4297F00C1B039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7801BA381EC4297F00C1B039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7801BA3A1EC4297F00C1B039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7801BA3D1EC4297F00C1B039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7801BA3F1EC4297F00C1B039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7801BA441EC4297F00C1B039 /* SalvadoranSitesV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalvadoranSitesV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7801BA481EC4297F00C1B039 /* SalvadoranSitesV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvadoranSitesV2Tests.swift; sourceTree = "<group>"; };
+		7801BA4A1EC4297F00C1B039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7801BA4F1EC4297F00C1B039 /* SalvadoranSitesV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalvadoranSitesV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7801BA531EC4297F00C1B039 /* SalvadoranSitesV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvadoranSitesV2UITests.swift; sourceTree = "<group>"; };
+		7801BA551EC4297F00C1B039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7801BA611EC438B900C1B039 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		7801BA631EC4419D00C1B039 /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7801BA2D1EC4297F00C1B039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA411EC4297F00C1B039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA4C1EC4297F00C1B039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7801BA271EC4297F00C1B039 = {
+			isa = PBXGroup;
+			children = (
+				7801BA321EC4297F00C1B039 /* SalvadoranSitesV2 */,
+				7801BA471EC4297F00C1B039 /* SalvadoranSitesV2Tests */,
+				7801BA521EC4297F00C1B039 /* SalvadoranSitesV2UITests */,
+				7801BA311EC4297F00C1B039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7801BA311EC4297F00C1B039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7801BA301EC4297F00C1B039 /* SalvadoranSitesV2.app */,
+				7801BA441EC4297F00C1B039 /* SalvadoranSitesV2Tests.xctest */,
+				7801BA4F1EC4297F00C1B039 /* SalvadoranSitesV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7801BA321EC4297F00C1B039 /* SalvadoranSitesV2 */ = {
+			isa = PBXGroup;
+			children = (
+				7801BA331EC4297F00C1B039 /* AppDelegate.swift */,
+				7801BA351EC4297F00C1B039 /* ViewController.swift */,
+				7801BA371EC4297F00C1B039 /* Main.storyboard */,
+				7801BA3A1EC4297F00C1B039 /* Assets.xcassets */,
+				7801BA3C1EC4297F00C1B039 /* LaunchScreen.storyboard */,
+				7801BA3F1EC4297F00C1B039 /* Info.plist */,
+				7801BA611EC438B900C1B039 /* Places.swift */,
+				7801BA631EC4419D00C1B039 /* MapaViewController.swift */,
+			);
+			path = SalvadoranSitesV2;
+			sourceTree = "<group>";
+		};
+		7801BA471EC4297F00C1B039 /* SalvadoranSitesV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7801BA481EC4297F00C1B039 /* SalvadoranSitesV2Tests.swift */,
+				7801BA4A1EC4297F00C1B039 /* Info.plist */,
+			);
+			path = SalvadoranSitesV2Tests;
+			sourceTree = "<group>";
+		};
+		7801BA521EC4297F00C1B039 /* SalvadoranSitesV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7801BA531EC4297F00C1B039 /* SalvadoranSitesV2UITests.swift */,
+				7801BA551EC4297F00C1B039 /* Info.plist */,
+			);
+			path = SalvadoranSitesV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7801BA2F1EC4297F00C1B039 /* SalvadoranSitesV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7801BA581EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2" */;
+			buildPhases = (
+				7801BA2C1EC4297F00C1B039 /* Sources */,
+				7801BA2D1EC4297F00C1B039 /* Frameworks */,
+				7801BA2E1EC4297F00C1B039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalvadoranSitesV2;
+			productName = SalvadoranSitesV2;
+			productReference = 7801BA301EC4297F00C1B039 /* SalvadoranSitesV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7801BA431EC4297F00C1B039 /* SalvadoranSitesV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7801BA5B1EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2Tests" */;
+			buildPhases = (
+				7801BA401EC4297F00C1B039 /* Sources */,
+				7801BA411EC4297F00C1B039 /* Frameworks */,
+				7801BA421EC4297F00C1B039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7801BA461EC4297F00C1B039 /* PBXTargetDependency */,
+			);
+			name = SalvadoranSitesV2Tests;
+			productName = SalvadoranSitesV2Tests;
+			productReference = 7801BA441EC4297F00C1B039 /* SalvadoranSitesV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7801BA4E1EC4297F00C1B039 /* SalvadoranSitesV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7801BA5E1EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2UITests" */;
+			buildPhases = (
+				7801BA4B1EC4297F00C1B039 /* Sources */,
+				7801BA4C1EC4297F00C1B039 /* Frameworks */,
+				7801BA4D1EC4297F00C1B039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7801BA511EC4297F00C1B039 /* PBXTargetDependency */,
+			);
+			name = SalvadoranSitesV2UITests;
+			productName = SalvadoranSitesV2UITests;
+			productReference = 7801BA4F1EC4297F00C1B039 /* SalvadoranSitesV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7801BA281EC4297F00C1B039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Eduardo Chavez";
+				TargetAttributes = {
+					7801BA2F1EC4297F00C1B039 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7801BA431EC4297F00C1B039 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7801BA2F1EC4297F00C1B039;
+					};
+					7801BA4E1EC4297F00C1B039 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7801BA2F1EC4297F00C1B039;
+					};
+				};
+			};
+			buildConfigurationList = 7801BA2B1EC4297F00C1B039 /* Build configuration list for PBXProject "SalvadoranSitesV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7801BA271EC4297F00C1B039;
+			productRefGroup = 7801BA311EC4297F00C1B039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7801BA2F1EC4297F00C1B039 /* SalvadoranSitesV2 */,
+				7801BA431EC4297F00C1B039 /* SalvadoranSitesV2Tests */,
+				7801BA4E1EC4297F00C1B039 /* SalvadoranSitesV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7801BA2E1EC4297F00C1B039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7801BA3E1EC4297F00C1B039 /* LaunchScreen.storyboard in Resources */,
+				7801BA3B1EC4297F00C1B039 /* Assets.xcassets in Resources */,
+				7801BA391EC4297F00C1B039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA421EC4297F00C1B039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA4D1EC4297F00C1B039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7801BA2C1EC4297F00C1B039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7801BA361EC4297F00C1B039 /* ViewController.swift in Sources */,
+				7801BA641EC4419D00C1B039 /* MapaViewController.swift in Sources */,
+				7801BA341EC4297F00C1B039 /* AppDelegate.swift in Sources */,
+				7801BA621EC438B900C1B039 /* Places.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA401EC4297F00C1B039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7801BA491EC4297F00C1B039 /* SalvadoranSitesV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801BA4B1EC4297F00C1B039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7801BA541EC4297F00C1B039 /* SalvadoranSitesV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7801BA461EC4297F00C1B039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7801BA2F1EC4297F00C1B039 /* SalvadoranSitesV2 */;
+			targetProxy = 7801BA451EC4297F00C1B039 /* PBXContainerItemProxy */;
+		};
+		7801BA511EC4297F00C1B039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7801BA2F1EC4297F00C1B039 /* SalvadoranSitesV2 */;
+			targetProxy = 7801BA501EC4297F00C1B039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7801BA371EC4297F00C1B039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7801BA381EC4297F00C1B039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7801BA3C1EC4297F00C1B039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7801BA3D1EC4297F00C1B039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7801BA561EC4297F00C1B039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7801BA571EC4297F00C1B039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7801BA591EC4297F00C1B039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalvadoranSitesV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7801BA5A1EC4297F00C1B039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalvadoranSitesV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7801BA5C1EC4297F00C1B039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalvadoranSitesV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalvadoranSitesV2.app/SalvadoranSitesV2";
+			};
+			name = Debug;
+		};
+		7801BA5D1EC4297F00C1B039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalvadoranSitesV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalvadoranSitesV2.app/SalvadoranSitesV2";
+			};
+			name = Release;
+		};
+		7801BA5F1EC4297F00C1B039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalvadoranSitesV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalvadoranSitesV2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7801BA601EC4297F00C1B039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalvadoranSitesV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardo.SalvadoranSitesV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalvadoranSitesV2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7801BA2B1EC4297F00C1B039 /* Build configuration list for PBXProject "SalvadoranSitesV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7801BA561EC4297F00C1B039 /* Debug */,
+				7801BA571EC4297F00C1B039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7801BA581EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7801BA591EC4297F00C1B039 /* Debug */,
+				7801BA5A1EC4297F00C1B039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7801BA5B1EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7801BA5C1EC4297F00C1B039 /* Debug */,
+				7801BA5D1EC4297F00C1B039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7801BA5E1EC4297F00C1B039 /* Build configuration list for PBXNativeTarget "SalvadoranSitesV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7801BA5F1EC4297F00C1B039 /* Debug */,
+				7801BA601EC4297F00C1B039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7801BA281EC4297F00C1B039 /* Project object */;
+}
